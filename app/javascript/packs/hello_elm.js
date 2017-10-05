@@ -9,4 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.body.appendChild(target)
   Elm.Main.embed(target)
+  // TODO: Figure out how ports work, referencing the TODOmvc elm example in index.html
+  var app = Elm.Main.fullscreen()
+  console.log(app)
 })
